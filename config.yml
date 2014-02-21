@@ -34,7 +34,8 @@ sections:
     columns:
       -
         image: how-it-works.png
-        text: Investors can select and invest in hedge fund opportunities, while hedge funds can easily solicit investments.
+        text: Our platform allows accredited investors to select and invest in hedge fund opportunities, while also allowing hedge funds to solicit investments. Choose from several available syndicates based on your personal risk/return profile.
+        text_align: center
 
   -
     n-columns: true
