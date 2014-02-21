@@ -51,7 +51,7 @@ sections:
 
       -
         title: Full Transparency
-        image: Transparency.png
+        image: transparency.png
         resize: true
         rounded_corner: false
         text: We are bringing hedge funds from opacity and privacy to their future in transparency and online presence.
