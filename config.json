@@ -1,0 +1,7 @@
+{
+  "PROJECT_NAME": "eggtimer",
+  "API_CONSUMER_KEY" : "lunchbag-8551",
+  "API_CONSUMER_SECRET" : "96c6538cf5c445b5",
+  "SANDBOX" : true,
+  "OAUTH_ACCESS_TOKEN": "S=s1:U=8de5e:E=14b7202f40d:C=1441a51c813:P=185:A=lunchbag-8551:V=2:H=d42f43d66392961e2dbbfee544fec23b"
+}
