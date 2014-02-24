@@ -22,7 +22,17 @@
 <div id="body">
   <span id="tagline">{{main_tagline}}</span>
   <span id="tagline-meta">{{sub_tagline}}</span>
-  <center><span id="body-button" class="link button">{{button_text}}</span></center>
+  {{#if subscribe-header}}
+    <div class="section subscribe" {{#if nav_link}}data-section-id="{{nav_link_id}}"{{/if}} style="background: none; border: none; padding: 0px;"> 
+      <form name="subscribe">
+        <input type="text" name="email" placeholder="you@gmail.com" />
+        <button name="subscribe" type="submit">Get access today</button>
+      </form>
+      <span class="message"></span>
+    </div>
+    {{else}}
+    <center><span id="body-button" class="link button">{{button_text}}</span></center>
+  {{/if}}
 </div>
 
 {{#each sections}}

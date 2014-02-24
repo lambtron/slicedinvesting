@@ -16,9 +16,15 @@ css:
 
 # top-level stuff
 product_name: Sliced Investing
-main_tagline: Achieve premiere hedge fund returns today.
+main_tagline: Hedge fund crowdfunding.
 sub_tagline: Finally, a platform that allows you to find and invest in winning hedge funds.
-button_text: Get exclusive access now
+button_text: Get access
+
+subscribe-header: true
+nav_link_id: false
+nav_link: false
+title: Get access
+
 
 # footer stuff
 footer_text: (c) Sliced Investing, All Rights Reserved.
@@ -44,25 +50,25 @@ sections:
     nav_link_id: team
     columns:
       -
-        title: Investment Democracy
+        title: Democratized Investing
         image: investor.png
         resize: true
         rounded_corner: false
-        text: Alongside other accredited investors, manage your own investments by choosing in which hedge funds to invest.
+        text: Alongside other private investors, choose the right hedge fund investment for your portfolio.
 
       -
         title: Full Transparency
         image: transparency.png
         resize: true
         rounded_corner: false
-        text: We are bringing hedge funds from opacity and privacy to their future in transparency and online presence.
+        text: We are bringing hedge funds from their roots in opacity and privacy to their future in transparency and online presence.
 
       -
         title: Safe and Secure
         image: security.png
         resize: true
         rounded_corner: false
-        text: A premiere world class platform requires the highest level of security measures. Your money is safe with us.
+        text: We take the highest security measures to ensure your transactions are protected and proper due diligence occurs.
 
   -
     subscribe: true
