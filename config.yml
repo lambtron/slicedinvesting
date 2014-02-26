@@ -9,15 +9,15 @@ css:
   # Footer
   footerColor: '#333'
   # Main body image
-  backgroundUrl: 'slicedinvesting-bg.png'
+  backgroundUrl: 'hedgefund.png'
   # Sections
   sectionBackgroundColorOdd: '#fff'
   sectionBackgroundColorEven: '#f3f3f3'
 
 # top-level stuff
 product_name: Sliced Investing
-main_tagline: Hedge fund crowdfunding.
-sub_tagline: Finally, a platform that allows you to find and invest in winning hedge funds.
+main_tagline: Hedge Fund Crowdfunding.
+sub_tagline: Invest in real hedge funds without the high minimum.
 button_text: Get access
 
 subscribe-header: true
@@ -29,6 +29,8 @@ title: Get access
 # footer stuff
 footer_text: (c) Sliced Investing, All Rights Reserved.
 twitter: slicedinvesting
+facebook: slicedinvesting
+linkedin: slicedinvesting
 
 sections:
   -
@@ -36,32 +38,32 @@ sections:
     title: How It Works
     nav_link: true
     nav_link_id: how-it-works
+    nav_link_title: About
 
     columns:
       -
         image: how-it-works.png
-        text: Our platform allows accredited investors to select and invest in hedge fund opportunities, while also allowing hedge funds to solicit investments. Choose from several available syndicates based on your personal risk/return profile.
+        text: Choose hedge funds that match your personal risk/return profile.
         text_align: center
 
   -
     n-columns: true
     title: 
-    nav_link: true
-    nav_link_id: team
+    nav_link: false
     columns:
       -
         title: Democratized Investing
-        image: investor.png
+        image: democracy.png
         resize: true
         rounded_corner: false
-        text: Alongside other private investors, choose the right hedge fund investment for your portfolio.
+        text: Alongside other accredited investors, choose the right hedge fund investment for your portfolio.
 
       -
         title: Full Transparency
-        image: transparency.png
+        image: transparency-2.png
         resize: true
         rounded_corner: false
-        text: We are bringing hedge funds from their roots in opacity and privacy to their future in transparency and online presence.
+        text: We are bringing hedge funds from their roots in opacity and exclusivity to their future in transparency and online accessability.
 
       -
         title: Safe and Secure
@@ -75,3 +77,4 @@ sections:
     nav_link_id: signup
     nav_link: true
     title: Register to get access today!
+    nav_link_title: Sign up

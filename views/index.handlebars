@@ -13,7 +13,7 @@
   <span id="title"><a href="/">{{product_name}}</a></span>
   <nav>
     {{#each nav}}
-    <span class="link" data-section-id="{{nav_link_id}}">{{title}}</span>
+    <span class="link" data-section-id="{{nav_link_id}}">{{nav_link_title}}</span>
     {{/each}}
   </nav>
   <div style="clear:both;"></div>
@@ -68,7 +68,23 @@
 
 <footer>
   <span>{{footer_text}}</span>
-  <span class="social-media">{{#if twitter}}Follow us! <a href="http://twitter.com/{{twitter}}"><img src="twitter_white.png"></a>{{/if}}</span>
+  <span class="social-media">
+    {{#if twitter}}
+      <a href="http://twitter.com/{{twitter}}">
+        <img src="twitter_white.png">
+      </a>
+    {{/if}}
+    {{#if facebook}}
+      <a href="http://facebook.com/{{facebook}}">
+        <img src="facebook.png">
+      </a>
+    {{/if}}
+    {{#if linkedin}}
+      <a href="http://linkedin.com/in/{{linkedin}}">
+        <img src="linkedin.jpeg">
+      </a>
+    {{/if}}
+  </span>
 </footer>
 
 <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
