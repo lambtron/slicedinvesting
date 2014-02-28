@@ -26,6 +26,7 @@ header {
     display: block;
   }
   nav {
+    font-size: 16px;
     padding-right: 200px;
     display: block;
     float: right;
@@ -103,7 +104,7 @@ div.section {
   margin: 0;
   padding: 50px 200px;
   span.section-title {
-    font-size: 26px;
+    font-size: 34px;
     display: block;
     font-weight: 900;
     margin-bottom: 40px;
@@ -142,12 +143,15 @@ div.n-columns {
     vertical-align: top;
     width: 300px;
     img.resize {
-      width: 150px;
+      width: 80px;
       height: auto;
       margin: 0;
     }
     img.rounded-corner {
       border-radius: 75px;
+    }
+    img.circle {
+      border-radius: 50%;
     }
     span {
       display: block;
