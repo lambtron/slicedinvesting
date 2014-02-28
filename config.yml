@@ -16,6 +16,7 @@ css:
 
 # top-level stuff
 product_name: Sliced Investing
+product_logo: logo.png
 main_tagline: Hedge Fund Crowdfunding
 sub_tagline: Hedge fund investment without the high minimum.
 button_text: Sign Up

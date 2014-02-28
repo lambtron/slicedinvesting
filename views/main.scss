@@ -25,6 +25,11 @@ header {
     float: left;
     display: block;
   }
+  span#title a img {
+    height: 40px;
+    margin-bottom: -10px;
+    margin-right: -5px;
+  }
   nav {
     font-size: 16px;
     padding-right: 200px;
