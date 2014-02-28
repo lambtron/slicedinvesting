@@ -35,16 +35,27 @@ linkedin: slicedinvesting
 sections:
   -
     n-columns: true
-    title: How It Works
+    title: Grow with the pros
     nav_link: true
-    nav_link_id: how-it-works
+    nav_link_id: grow
     nav_link_title: About
 
     columns:
       -
-        image: how-it-works.png
-        text: Choose hedge funds that match your personal risk/return profile.
-        text_align: center
+        texts:
+          -
+            text: 1. Create an account and browse hedge fund(s) that match your risk and return profile.
+            text_align: left
+          -
+            text: 2. Invest alongside other investors so you don't need to meet minimum hedge fund requirements.
+            text_align: left
+          -
+            text: 3. Track your investments, conduct extensive analysis, and collaborate with other investors.
+            text_align: left
+
+      -
+        image: investor.jpg
+        resize: true
 
   -
     n-columns: true
