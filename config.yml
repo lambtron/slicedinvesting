@@ -17,7 +17,7 @@ css:
 # top-level stuff
 product_name: Sliced Investing
 main_tagline: Hedge Fund Crowdfunding
-sub_tagline: Invest in Hedge Funds without the High Minimum.
+sub_tagline: Hedge fund investment without the high minimum.
 button_text: Sign Up
 
 subscribe-header: true
@@ -44,12 +44,12 @@ sections:
       -
         texts:
           -
-            text: 1. Create an account and browse hedge fund(s) that match your risk and return profile.
+            text: 1. Create an account and select hedge funds that match your risk return preferences.
             text_align: left
             margin: 2em
             font_size: 1em
           -
-            text: 2. Invest alongside other investors so you don't need to meet minimum hedge fund requirements.
+            text: 2. Invest alongside others in order to meet hedge funds' minimum requirements.
             text_align: left
             margin: 2em
             font_size: 1em
